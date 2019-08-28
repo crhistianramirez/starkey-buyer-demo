@@ -3,7 +3,7 @@ import { PaymentMethod } from '@app-buyer/shared/models/payment-method.enum';
 import { environment } from '../../environments/environment';
 
 export const ocAppConfig: AppConfig = {
-  appname: 'All Chalked Up',
+  appname: 'Starkey Shopper',
   clientID: environment.clientID,
   anonymousShoppingEnabled: false,
   premiumSearchEnabled: false,
